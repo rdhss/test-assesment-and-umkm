@@ -1,0 +1,31 @@
+.card-lt{
+    height: 80%;
+    width: 20%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+
+}
+
+.container-img{
+    height: 171.594px;
+    width: 259.391px;
+    overflow: hidden;
+}
+
+.img-h{
+    width: 100%;
+}
+
+.text-kg{
+    font-size: 16px;
+}
+
+.desc{
+    height: 47%;
+}
+
+.button{
+    height: 20%;
+}

@@ -1,0 +1,9 @@
+.footer-main{
+    height: 85vh;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}

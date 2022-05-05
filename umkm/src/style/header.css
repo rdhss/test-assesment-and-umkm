@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.m-butt{
+  margin-left: 50px;
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(17, 17, 17, 0.582), rgba(24, 24, 24, 0.377)), url(../assets/img/fruits.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%); }
+
+.logo-box {
+  position: absolute;
+  top: 70px;
+  left: 70px; }
+
+.logo {
+  height: 35px; }
+
+.text-box {
+  position: absolute;
+  top: 48%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 43px; }
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+  animation-name: moveRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+  animation-name: moveLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  transform: translateX(-6.8px); }
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  80% {
+    transform: translateX(10px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  80% {
+    transform: translateX(-10px); }
+  100% {
+    opacity: 1;
+    transform: translateX(-6.8px); } }
+
+@keyframes moveButton {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.button:link,
+.button:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 100px;
+  display: inline-block;
+  transition: all .2s; }
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  color: #777;}
+  
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.button-white {
+  background-color: #fff;
+  color: #777; }
+
+.button-animation {
+  animation: moveButton 1s ease-out .4s;
+  animation-fill-mode: backwards; }

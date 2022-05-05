@@ -1,0 +1,11 @@
+.comment-main {
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.377)), url(../assets/img/fruits.jpg);
+}
+
+.comment-card{
+    width: 40%;
+    /* height: 20%; */
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
